@@ -1,3 +1,4 @@
+from OpenGL import GLU
 import gym, roboschool, sys, os
 import numpy as np
 import pyglet, pyglet.window as pw, pyglet.window.key as pwk

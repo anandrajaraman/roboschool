@@ -1,3 +1,4 @@
+from OpenGL import GLU
 import os.path, time, gym
 import numpy as np
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
