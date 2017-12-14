@@ -62,7 +62,7 @@ register(
     )
 
 register(
-    id='RoboschoolAnt-ESE680',
+    id='RoboschoolAnt-v2',
     entry_point='roboschool:RoboschoolAntESE680',
     max_episode_steps=1000,
     reward_threshold=2500.0,
@@ -118,6 +118,7 @@ from roboschool.gym_mujoco_walkers import RoboschoolHopper
 from roboschool.gym_mujoco_walkers import RoboschoolWalker2d
 from roboschool.gym_mujoco_walkers import RoboschoolHalfCheetah
 from roboschool.gym_mujoco_walkers import RoboschoolAnt
+from roboschool.gym_mujoco_walkers import RoboschoolAntESE680
 from roboschool.gym_mujoco_walkers import RoboschoolHumanoid
 from roboschool.gym_humanoid_flagrun import RoboschoolHumanoidFlagrun
 from roboschool.gym_humanoid_flagrun import RoboschoolHumanoidFlagrunHarder

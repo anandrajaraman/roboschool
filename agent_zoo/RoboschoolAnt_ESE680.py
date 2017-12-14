@@ -76,7 +76,7 @@ def demo_run():
         device_count = { "GPU": 0 } )
     sess = tf.InteractiveSession(config=config)
 
-    env = gym.make("RoboschoolAnt-ESE680")
+    env = gym.make("RoboschoolAnt-v2")
 
     pi = ZooPolicyTensorflow("mymodel1", env.observation_space, env.action_space)
 
