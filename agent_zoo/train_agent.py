@@ -3,6 +3,7 @@ import argparse
 from baselines import bench, logger
 
 def train(env_id, num_timesteps, seed):
+    import roboschool
     from baselines.common import set_global_seeds
     from baselines.common.vec_env.vec_normalize import VecNormalize
     from baselines.ppo2 import ppo2
@@ -43,6 +44,5 @@ def main():
 
 
 if __name__ == '__main__':
-    from baselines.ppo2 import ppo2
-    # main()
+    main()
 
