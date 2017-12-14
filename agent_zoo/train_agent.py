@@ -43,5 +43,6 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    from baselines.ppo2 import ppo2
+    # main()
 
