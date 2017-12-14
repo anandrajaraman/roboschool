@@ -62,6 +62,14 @@ register(
     )
 
 register(
+    id='RoboschoolAnt-ESE680',
+    entry_point='roboschool:RoboschoolAntESE680',
+    max_episode_steps=1000,
+    reward_threshold=2500.0,
+    tags={ "pg_complexity": 8*1000000 },
+    )
+
+register(
     id='RoboschoolHumanoid-v1',
     entry_point='roboschool:RoboschoolHumanoid',
     max_episode_steps=1000,
