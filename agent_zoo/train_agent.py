@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import argparse
 from baselines import bench, logger
-
+from OpenGL import GLU
 
 def train(env_id, num_timesteps, seed):
     import roboschool
@@ -32,7 +32,7 @@ def train(env_id, num_timesteps, seed):
                lam=0.95, gamma=0.99, noptepochs=10, log_interval=1,
                ent_coef=0.0,
                lr=3e-4,
-               cliprange=0.2,
+               cliprange=0.1,
                total_timesteps=num_timesteps, save_interval=1000)
 
 
